@@ -5,3 +5,41 @@
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
     height: 90vh;
 }
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 25px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.main-btn2 {
+    background-color: rgba(252,120,25,1);
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn2:hover {
+    text-decoration: none;
+    color: white;
+    background-color:rgba(167,69,0,1);
+    border-color: rgba(167,69,0,1);
+}
+
+.carousel-indicators .active {
+    background-color:rgba(167,69,0,1);
+}
