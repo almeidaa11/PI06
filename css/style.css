@@ -13,8 +13,8 @@ body {
   
 /* Barra de navegação */
 header, .navbar {
-    background-image: url(../img/barrabarra_superior.png);
-    background-size: 100%;
+    background: rgb(244,139,43);
+    background: linear-gradient(0deg, rgba(244,139,43,1) 0%, rgba(252,120,25,1) 40%, rgba(167,69,0,1) 100%);
 }
   
 #nav-container {
