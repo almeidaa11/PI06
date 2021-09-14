@@ -13,7 +13,8 @@ body {
   
 /* Barra de navegação */
 header, .navbar {
-    background-color: #353D41;
+    background-image: url(../img/barrabarra_superior.png);
+    background-size: 100%;
 }
   
 #nav-container {
