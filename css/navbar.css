@@ -1,0 +1,34 @@
+header, .navbar {
+    background: rgb(244,139,43);
+    background: linear-gradient(0deg, rgba(244,139,43,1) 0%, rgba(252,120,25,1) 40%, rgba(167,69,0,1) 100%);
+}
+  
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+  
+#logo {
+    width: 100px;
+}
+  
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+  
+.navbar-brand:hover {
+    color: #FFF;
+}
+  
+#navbar-links a {
+    color: white;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 1.5rem;
+}
+  
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+}
