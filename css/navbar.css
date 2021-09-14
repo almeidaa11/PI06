@@ -5,11 +5,11 @@ header, .navbar {
   
 #nav-container {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 50;
 }
   
 #logo {
-    width: 100px;
+    width: 110px;
 }
   
 .navbar-brand {
@@ -26,6 +26,7 @@ header, .navbar {
 }
   
 .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 18px;
     padding: 1rem 1.5rem;
 }
   
