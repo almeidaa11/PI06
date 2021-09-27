@@ -1,0 +1,111 @@
+  #call-area {
+    background-color: #FB6900;
+    text-transform: uppercase;
+  }
+  
+  #call-area .container {
+    padding: 40px 100px;
+  }
+  
+  #call-area .row {
+    display: block;
+    text-align: center;
+  }
+  
+  #call-area p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+  }
+  
+  #call-area #call-btn {
+    background-color: #FFF;
+    color: #FB6900;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+    width: auto;
+    height: 70px;
+    letter-spacing: 2px;
+  }
+  
+  /* Footer */
+  
+  #contact-area {
+    text-align: center;
+  }
+  
+  .contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #FB6900;
+  }
+  
+  .contact-box i {
+    color: #262837;
+    border: solid 1px #262837;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box p {
+    font-size: 16px;
+  }
+  
+  .contact-title {
+    font-weight: bold;
+    color: #FB6900;
+  }
+  
+  #msg-box p {
+    font-size: 45px;
+  }
+  
+  #contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 30px;
+    border-radius: 0;
+  }
+  
+  #contact-form .main-btn2 {
+    width: 120px;
+    height: 65px;
+  }
+  
+  #contact-form .main-btn2:hover {
+    color: #ffffff;
+  }
+  
+  /* Copy */
+  
+  #copy-area {
+    background: linear-gradient(0deg, rgba(244,139,43,1) 0%, rgba(252,120,25,1) 40%, rgba(167,69,0,1) 100%);
+  }
+  
+  #copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #copy-area .container p {
+    margin-bottom: 0;
+  }
+  
+  #copy-area .container a {
+    font-weight: bold;
+    color: #262837;
+  }
+  
+  #copy-area .container a:hover {
+    text-decoration: none;
+    color: #FB6900;
+  }
