@@ -1,3 +1,10 @@
 .card-body{
     text-align: center;
 }
+
+.card-img-top{
+    border-radius: 50%;
+    width: 70%;
+    margin-left: 55px;
+    margin-top: 10px;
+}
