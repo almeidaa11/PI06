@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  min-width: 100vh;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+main {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 4rem;
+}
+
+main h1 {
+  color: #262837;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+main .social-media {
+  display: flex;
+  align-content: center;
+  padding: 1rem;
+}
+
+main .social-media a {
+  text-decoration: none;
+}
+
+main .social-media img {
+  width: 1.5em;
+  margin-left: 3rem;
+  transition: all 0.3s ease;
+}
+
+main .social-media img:hover {
+  width: 2em;
+}
+
+main .social-media a:first-child img {
+  margin-left: 0;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main form label {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 18rem;
+}
+
+main form label input {
+  border-radius: 8px;
+  height: 2rem;
+  background: #262837;
+  text-indent: 1rem;
+  opacity: 0.4;
+}
+
+main form label input::placeholder {
+  color: white;
+}
+
+main form .btn {
+  height: 2rem;
+  width: 7rem;
+  margin: 2rem;
+  background: #2f3143;
+  color: white;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+main form .btn:hover {
+  background: #fb6900;
+}
+
+section.imgs {
+  display: flex;
+  position: relative;
+  width: 50vw;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+section.imgs img {
+  height: 30em;
+  margin-right: 7%;
+  rotate: -40deg;
+}
+
+section.imgs .circle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #ee9f55, #ff4400);
+  clip-path: circle(70% at 100% 90%);
+  z-index: -1;
+}
+
+@media (max-width: 940px) {
+  body {
+    position: relative;
+  }
+
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+
+  main h1 {
+    color: #262837;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+    text-align: center;
+  }
+
+  main form label {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 18rem;
+  }
+
+  main form label input {
+    background: #ee9f55;
+    opacity: 1;
+  }
+
+  main form label input::placeholder {
+    color: black;
+  }
+
+  section {
+    position: absolute;
+    display: none;
+  }
+
+  .imgs img {
+    display: none;
+  }
+
+  .imgs .circle {
+    display: none;
+  }
+}
