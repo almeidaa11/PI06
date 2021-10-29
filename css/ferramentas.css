@@ -1,23 +1,36 @@
-.service-box{
-    text-align: center;
-    margin-bottom: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-.service-box i, service-box h3{
-    transition: .5s;
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.service-box i{
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: black;
+.service-box i,
+service-box h3 {
+  transition: 0.5s;
 }
 
-.service-box h3{
-    font-size: 24px;
-    margin-bottom: 20px;
+.service-box i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
 }
 
-.service-box:hover >i, .service-box:hover >h3{
-    color: rgba(252,120,25,1);
+.service-box h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-box:hover > i,
+.service-box:hover > h3 {
+  color: rgba(252, 120, 25, 1);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
 }

@@ -1,35 +1,43 @@
-header, .navbar {
-    background: rgb(244,139,43);
-    background: linear-gradient(0deg, rgba(244,139,43,1) 0%, rgba(252,120,25,1) 40%, rgba(167,69,0,1) 100%);
+header,
+.navbar {
+  background: rgb(244, 139, 43);
+  background: linear-gradient(
+    0deg,
+    rgba(244, 139, 43, 1) 0%,
+    rgba(252, 120, 25, 1) 40%,
+    rgba(167, 69, 0, 1) 100%
+  );
 }
-  
+
 #nav-container {
-    padding-top: 0;
-    padding-bottom: 50;
+  padding-top: 0;
+  padding-bottom: 50;
 }
-  
+
 #logo {
-    width: 110px;
+  width: 110px;
+  margin-right: 10%;
 }
-  
+
 .navbar-brand {
-    padding: 0;
-    color: #FFF;
+  padding: 0;
+  color: #fff;
+  font-size: 2rem;
 }
-  
+
 .navbar-brand:hover {
-    color: #FFF;
+  color: #fff;
 }
-  
+
 #navbar-links a {
-    color: white;
+  color: white;
 }
-  
+
 .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 18px;
-    padding: 1rem 0.9rem;
+  font-size: 18px;
+  padding: 1rem 0.9rem;
 }
-  
+
 .nav-item.active {
-    border-bottom: 3px solid #FFF;
+  border-bottom: 3px solid #fff;
 }

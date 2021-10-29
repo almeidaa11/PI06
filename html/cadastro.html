@@ -5,14 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign In Screen</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 
 <body>
   <main>
-    <h1>Login</h1>
+    <h1>Create Account</h1>
+
     <div class="container">
       <form action="">
+          <label for="name">
+            <span>Name</span>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+          </label>
+        <div class="underline"></div>
 
         <label for="email">
           <span>Email</span>
@@ -24,13 +30,13 @@
           <input type="password" name="password" id="password" placeholder="Enter your password">
         </label>
 
-        <input class="btn" type="submit" value="Login">
-
-        <a href="../cadastro/index.html">Não possui conta? Cadastre-se</a>
+        
+          <button onclick="SubmitEvent" class="btn">Sign Up</button>
+        
       </form>
     </div>
-  </main>
 
+  </main>
   <section class="imgs">
     <img src="../img/mobile.png">
     <div class="circle"></div>

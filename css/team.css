@@ -1,10 +1,19 @@
-.card-body{
-    text-align: center;
+#team {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.card-img-top{
-    border-radius: 50%;
-    width: 70%;
-    margin-left: 55px;
-    margin-top: 10px;
+#team div:nth-child(-n + 3) {
+  margin-bottom: 3%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 70%;
+  margin-left: 55px;
+  margin-top: 10px;
 }

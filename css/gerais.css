@@ -1,12 +1,11 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-  
+
 .row {
-    margin: 0;
+  margin: 0;
 }
-  
+
 .container {
-    padding: 70px 0;
+  padding: 70px 0;
 }
-  

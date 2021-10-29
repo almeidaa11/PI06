@@ -1,40 +1,45 @@
 #about-area {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .main-title {
-    color: #FB6900;
-    margin: 50px 0 65px 0;
-    font-size: 40px;
-    text-align: center;
+  color: #fb6900;
+  margin: 50px 0 65px 0;
+  font-size: 40px;
+  text-align: center;
 }
-  
+
 .main-title::after {
-    content: "";
-    border-top: 2px solid #262837;
-    width: 15%;
-    position: absolute;
-    top: 110px;
-    left: 42.5%;
+  content: "";
+  border-top: 2px solid #262837;
+  width: 15%;
+  position: absolute;
+  top: 110px;
+  left: 42.5%;
 }
 
 .about-title {
-    font-size: 17px;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
+  font-size: 17px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#office {
+  height: 100%;
+  width: auto;
 }
 
 #about-list {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 #about-list li {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 #about-list i {
-    color: #FB6900;
-    margin-right: 15px;
+  color: #fb6900;
+  margin-right: 15px;
 }

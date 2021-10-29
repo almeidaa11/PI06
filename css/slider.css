@@ -1,47 +1,61 @@
-.container-fluid{
-    padding: 0;
+.container-fluid {
+  padding: 0;
 }
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item{
-    height: 90vh;
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 90vh;
 }
 
 #mainSlider .carousel-caption {
-    top: 20%;
+  top: 20%;
 }
 
 #mainSlider .carousel-caption h2 {
-    font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 #mainSlider .carousel-caption p {
-    font-size: 25px;
-    margin-bottom: 140px;
-    color: white;
+  font-size: 25px;
+  margin-bottom: 140px;
+  color: white;
 }
 
 .main-btn2 {
-    font-size: 20px;
-    background-color: rgba(252,120,25,1);
-    color: white;
-    text-transform: uppercase;
-    width: 200px;
-    height: 60px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: 3px solid transparent;
-    transition: .5s;
+  font-size: 20px;
+  background-color: rgba(252, 120, 25, 1);
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.main-btn3 {
+  font-size: 20px;
+  background-color: rgba(252, 120, 25, 1);
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.5s;
 }
 
 .main-btn2:hover {
-    text-decoration: none;
-    color: white;
-    background-color:rgba(167,69,0,1);
-    border-color: rgba(167,69,0,1);
+  text-decoration: none;
+  color: white;
+  background-color: rgba(167, 69, 0, 1);
+  border-color: rgba(167, 69, 0, 1);
 }
 
 .carousel-indicators .active {
-    background-color:rgba(167,69,0,1);
+  background-color: rgba(167, 69, 0, 1);
 }
