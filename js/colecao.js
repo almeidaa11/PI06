@@ -31,6 +31,9 @@ var marvel = [
   },
 ];
 
-var tabela = document.querySelector("#colecao-area");
+var tabela = document.querySelector(".table");
 
-function montaPai() {}
+function montaPai(hero) {
+  let hero = document.createElement("div");
+  hero.classList.add("hero");
+}
