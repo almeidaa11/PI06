@@ -3,12 +3,6 @@ var dc = [];
 var marvel = [
   {
     imgFile: "../img/Capitão-America.jpg",
-    nome: "Capitão América",
-    descricao:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, ratione veritatis ad, qui est minus laboriosam aliquid iure porro quas eos dolorum. Enim doloremque ab deleniti aliquid ad perferendis saepe.",
-  },
-  {
-    imgFile: "../img/Capitão-America.jpg",
     nome: "Homem de Ferro (Tonny Stark)",
     altura: "186, na armadura 198 (quadrinhos)",
     peso: "102,05 kg, na armadura 192,77  (quadrinhos)",
@@ -33,7 +27,40 @@ var marvel = [
 
 var tabela = document.querySelector(".table");
 
-function montaPai(hero) {
-  let hero = document.createElement("div");
-  hero.classList.add("hero");
+function renderHeros(franquia) {
+  var list = document.createElement("ul");
+  list.classList.add("lista");
+  tabela.appendChild(list);
+  for (var i = 0; franquia.length; i++) {
+    var item = document.createElement("li");
+    item.classList.add("item");
+    list.appendChild(item);
+    var area = document.createElement("div");
+    var img = document.createElement("img");
+    var nome = document.createElement("h2");
+    var altura = document.createElement("p");
+    var peso = document.createElement("p");
+    var descricao = document.createElement("p");
+    var genero = document.createElement("p");
+    var poderes = document.createElement("p");
+
+    nome.textContent = franquia[i].nome;
+    altura.textContent = franquia[i].altura;
+    peso.textContent = franquia[i].peso;
+    descricao.textContent = franquia[i].descricao;
+    genero.textContent = franquia[i].genero;
+    poderes.textContent = franquia[i].poderes;
+
+    area.appendChild(img);
+    area.appendChild(nome);
+    area.appendChild(altura);
+    area.appendChild(peso);
+    area.appendChild(descricao);
+    area.appendChild(genero);
+    area.appendChild(poderes);
+
+    item.appendChild(area);
+  }
 }
+
+renderHeros(marvel);
